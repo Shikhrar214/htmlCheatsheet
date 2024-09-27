@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html_cheatsheet</title>
+    <style>
+      body{
+        background-color: #222;
+        color: #101010;
+        font-size: large;
+      }
+
+      .word{
+        font-weight: 700;
+        margin-left: 25%;
+        margin-right: 25%;
+      }
+
+      .word code{
+        font-weight: 100;
+      }
+
+      h1{
+        background-color: black;
+        color: orangered;
+      }
+
+      h3{
+        background-color: antiquewhite;
+      }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="word">
+            <h1>html</h1>
+              <code><pre>
+                &lt;!DOCTYPE html&gt;
+                &lt;html lang="en"&gt;
+                &lt;head&gt;
+                  &lt;meta charset="UTF-8"&gt;
+                  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                  &lt;title&gt;Document&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+
+                &lt;/body&gt;
+                &lt;/html&gt;
+            </pre></code>
+
+            <h1>Heading</h1>
+              <code><pre>
+                &lt;h1&gt;
+                <h1>Main Heading</h1>
+                &lt;/h1&gt;
+
+                &lt;h2&gt;
+                <h2>Subheading</h2>
+                &lt;/h2&gt;
+
+                &lt;h3&gt;
+                <h3>Smaller Subheading</h3>
+                &lt;/h3&gt;
+                
+
+                &lt;p&gt;
+                This is a paragraph
+                &lt;/p&gt;
+
+
+                &lt;strong&gt;
+                <strong>Bold Text</strong>
+                &lt;/strong&gt;
+
+                &lt;em&gt;
+                <em>Italic Text</em>
+                &lt;/em&gt;
+
+                &lt;u&gt;
+                <u>Underline Text</u>
+                &lt;/u&gt;
+
+                &lt;br&gt;
+                line break
+                <br>
+            </pre></code>
+
+            <h1>Links</h1>
+            <code>
+              <pre>
+                &lt;a href="https://www.google.com">&gt;
+                 
+                &lt;/a&gt;
+              </pre>
+            </code>
+
+            <h1>Images</h1>
+            <code>
+              <pre>
+                &lt;img  src="#imageAddress" alt=""&gt;
+              </pre>
+            </code>
+
+
+            <code>
+              <pre>
+               <h1>List</h1>
+               
+                  <ul>
+                    <h3><li>unordered list </li></h3>
+                  </ul>
+                
+                  &lt;ul&gt;
+                    &lt;li&gt;
+                    <ul>
+                      <li>unordered list 1</li>
+                      <li>unordered list 2</li>
+                      <li>unordered list 3</li>
+                    </ul>
+                    &lt;/li&gt;
+                  &lt;/ul&gt; 
+                  
+                  
+                 
+                    <ol>
+                      <h3><li>ordered list </li></h3>
+                    </ol>
+                  
+                    &lt;ul&gt;
+                      &lt;li&gt;
+                      <ol>
+                        <li>ordered list 1</li>
+                        <li>ordered list 2</li>
+                        <li>ordered list 3</li>
+                      </ol>
+                      &lt;/li&gt;
+                    &lt;/ol&gt;  
+              </pre>
+            </code>
+
+              <h1>Tables</h1>
+
+            <code>
+              <pre>
+
+                &lt;table&gt;
+
+                   &lt;tr&gt;
+                     &lt;th&gt;
+                     Header 1
+                     &lt;/th&gt;
+                     &lt;th&gt;
+                     Header 2
+                     &lt;/th&gt;
+                   &lt;/tr&gt;
+                   &lt;tr&gt;
+                     &lt;td&gt;
+                     Data 1
+                     &lt;/td&gt;
+                     &lt;td&gt;
+                     Data 2
+                     &lt;/td&gt;
+                   &lt;/tr&gt;
+                &lt;/table&gt;
+              </pre>
+            </code>
+
+
+            <h1>Forms</h1>
+            <code>
+              <pre>
+
+                &lt;form action="/submit" method="POST"&gt;
+                &lt;label for="name"&gt;Name:&lt;/label&gt;
+                &lt;input type="text" id="name" name="name"&gt;
+                &lt;input type="submit" value="Submit"&gt;
+                &lt;/form&gt;
+              </pre>
+            </code>
+            
+            
+            <h1>Div and Span:</h1>
+            <code>
+              <pre>
+                &lt;div&gt;
+                <h3>Block-level element (div):</h3>
+                &lt;/div&gt;
+
+                &lt;span&gt;
+                <h3>Inline element (span):</h3>
+                &lt;/span&gt;
+              </pre>
+            </code>
+
+            <h1>Comments</h1>
+            <code>
+              <pre>
+
+                
+                &lt;!-- This is a comment --&gt;
+
+  
+              </pre>
+            </code>
+
+
+            <h1>Semantic HTML Tags</h1>
+            <code>
+              <pre>
+
+                &lt;header>Header content&lt;/header>
+                &lt;nav>Navigation links&lt;/nav>
+                &lt;section>Main section&lt;/section>
+                &lt;article>Article content&lt;/article>
+                &lt;footer>Footer content&lt;/footer>
+              </pre>
+            </code>
+
+
+            <h1>Media Embedding:</h1>
+          
+            <code>
+              <pre>
+                <h3>Video:</h3>
+                &lt;video controls>
+                &lt;source src="video.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  &lt;/video>
+
+
+                  <h3>Audio:</h3>
+                  &lt;audio controls>
+                  &lt;source src="audio.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                    &lt;/audio>
+              </pre>
+            </code>
+
+            <h1>Meta Tags:</h1>
+            <code>
+              <pre>
+                &lt;meta name="description" content="Brief description of the page">
+                &lt;meta name="keywords" content="HTML, cheat sheet, guide">
+                &lt;
+              </pre>
+            </code>
+
+
+
+
+        </div>
+
+    </div>
+</body>
+</html>
