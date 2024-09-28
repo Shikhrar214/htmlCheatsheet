@@ -6,28 +6,43 @@
     <title>Html_cheatsheet</title>
     <style>
       body{
-        background-color: #222;
-        color: #101010;
+        background-color: #393939;
+        color: hsl(0, 0%, 100%);;
         font-size: large;
+        
       }
 
       .word{
         font-weight: 700;
         margin-left: 25%;
         margin-right: 25%;
+        background-color: hsl(224, 14%, 16%);
+        border: 1px solid black;
+        border-radius: 12px;
       }
 
       .word code{
-        font-weight: 100;
+        font-weight: 550;
+        background-color: green;
+        border-radius: 9px;
+        border: 1px solid black;
+      }
+
+      code pre{
+        border: 0.1px solid wheat;
       }
 
       h1{
-        background-color: black;
-        color: orangered;
+        /* background-color: black; */
+        background-color: hsl(224, 10%, 10%);
+        color: #f70;
+        border-radius: 12px;
       }
 
       h3{
-        background-color: antiquewhite;
+        background-color: rgb(43, 41, 41);
+        font-size: 25px;
+        border-radius: 12px;
       }
     </style>
 </head>
@@ -52,11 +67,11 @@
             <h1>Heading</h1>
               <code><pre>
                 &lt;h1&gt;
-                <h1>Main Heading</h1>
+                <h3>Main Heading</h3>
                 &lt;/h1&gt;
 
                 &lt;h2&gt;
-                <h2>Subheading</h2>
+                <h3>Subheading</h3>
                 &lt;/h2&gt;
 
                 &lt;h3&gt;
@@ -82,14 +97,14 @@
                 &lt;/u&gt;
 
                 &lt;br&gt;
-                line break
+                Line break
                 <br>
             </pre></code>
 
             <h1>Links</h1>
             <code>
               <pre>
-                &lt;a href="https://www.google.com">&gt;
+                &lt;a href="https://www.google.com"&gt;
                  
                 &lt;/a&gt;
               </pre>
@@ -107,32 +122,31 @@
               <pre>
                <h1>List</h1>
                
-                  <ul>
-                    <h3><li>unordered list </li></h3>
-                  </ul>
+                  
+                    <h3>Unordered list </h3>
+                  
                 
                   &lt;ul&gt;
                     &lt;li&gt;
                     <ul>
-                      <li>unordered list 1</li>
-                      <li>unordered list 2</li>
-                      <li>unordered list 3</li>
+                      <li>Unordered list 1</li>
+                      <li>Unordered list 2</li>
+                      <li>Unordered list 3</li>
                     </ul>
                     &lt;/li&gt;
                   &lt;/ul&gt; 
                   
                   
                  
-                    <ol>
-                      <h3><li>ordered list </li></h3>
-                    </ol>
+                    
+                      <h3>Ordered list </h3>
                   
                     &lt;ul&gt;
                       &lt;li&gt;
                       <ol>
-                        <li>ordered list 1</li>
-                        <li>ordered list 2</li>
-                        <li>ordered list 3</li>
+                        <li>Ordered list 1</li>
+                        <li>Ordered list 2</li>
+                        <li>Ordered list 3</li>
                       </ol>
                       &lt;/li&gt;
                     &lt;/ol&gt;  
@@ -242,7 +256,7 @@
               <pre>
                 &lt;meta name="description" content="Brief description of the page">
                 &lt;meta name="keywords" content="HTML, cheat sheet, guide">
-                &lt;
+                
               </pre>
             </code>
 
